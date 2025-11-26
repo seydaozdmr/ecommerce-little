@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "InventoryService (8082)",
+            "request": "launch",
+            "mainClass": "com.ecommerce.inventoryservice.InventoryServiceApplication",
+            "projectName": "inventory-service",
+            "args": [
+                "--server.port=8082"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "InventoryService (8083)",
+            "request": "launch",
+            "mainClass": "com.ecommerce.inventoryservice.InventoryServiceApplication",
+            "projectName": "inventory-service",
+            "args": [
+                "--server.port=8083"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "OrderService (8080)",
+            "request": "launch",
+            "mainClass": "com.ecommerce.orderservice.OrderServiceApplication",
+            "projectName": "order-service",
+            "args": [
+                "--server.port=8080"
+            ]
+        }
+    ]
+}
